@@ -5,7 +5,7 @@
 This is a smart home project being worked on by the following:
 - Nicole Zawadi - 228402
 - Leon Murimi -
-- Nicolea Amore -
+- Nicolea Amore -227953
 - Shem Kimani -
 - Sean Waweru - 227305
 
