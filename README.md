@@ -4,9 +4,9 @@
 
 This is a smart home project being worked on by the following:
 - Nicole Zawadi - 228402
-- Leon Murimi -
-- Nicolea Amore -
-- Shem Kimani -
+- Leon Murimi -227978
+- Nicolea Amore -227953
+- Shem Kimani -226782
 - Sean Waweru - 227305
 
 We are developing features to be integrated in the following aspects of the home:
