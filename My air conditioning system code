@@ -1,0 +1,13 @@
+room_temp = float(input("Enter current room temperature (°C): 
+
+desired_temp = float(input("Enter desired temperature (°C): "))
+
+if room_temp > desired_temp:
+    print("Air Conditioner ON")
+    print("Cooling room...")
+elif room_temp < desired_temp:
+    print("Air Conditioner OFF")
+    print("Room is already cool.")
+else:
+    print("Temperature is optimal.")
+    print("Air Conditioner in standby mode.")
