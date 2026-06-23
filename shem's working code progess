@@ -1,0 +1,26 @@
+import random
+import time
+
+class RoboCleaner:
+    def __init__ (self,rows=10, cols=8, battery=100):
+        self.rows=rows #how long is the room
+        self.cols=cols #how wide is the room
+        self.battery=battery #battery started with
+        self.row=0 #zero rows done
+        self.col=0 #zero colums done
+        self.cleaned=0 #zero cells cleaned
+        self.steps=0 #zero steps taken
+        self.directions='North' #currently facing north
+        self.moves= { #defining directions into numbers
+            'North':(-1,0),
+            'South': (1,0),
+            'East':(0,1),
+            'West':(0,-1),
+        }
+        self.turn_right={
+            'North':'East',
+            'East':'South',
+            'South':'West',
+            'West':'North',
+        }
+    
